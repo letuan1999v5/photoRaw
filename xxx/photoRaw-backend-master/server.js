@@ -7,7 +7,6 @@ const uploadRouter = require('./uploads/uploads.router');
 const session = require('express-session');
 const cors = require('cors');
 
-
 mongoose.set('useFindAndModify', false);
 
 mongoose.connect('mongodb://localhost:27017/photoRaw', { useNewUrlParser: true }, (error) => {
